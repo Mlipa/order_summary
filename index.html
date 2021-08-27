@@ -6,22 +6,35 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
   <title>Order Sumary</title>
 </head>
 <body>
-  <div>
-    <img src="./images/illustration-hero.svg" alt="illustration-hero">
-    <h3>Order Summary</h3>
-    <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-    device anywhere you like!</p>
-    <div>
-      <img src="./images/icon-music.svg" alt="icon-music">
-      <p>Annual Plan
-        $59.99/year</p>
-      <p>Change</p>
-    </div>
-    <button>Proceed to Payment</button>
-    <button>Cancel Order</button>
-  </div>
+  <article>
+    <header>
+      <img id="hero" src="./images/illustration-hero.svg" alt="illustration-hero">
+    </header>
+    <main>
+      <h1>Order Summary</h1>
+      <p id="message">You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like!</p>
+      <section class="plan">
+        <div>
+          <img src="./images/icon-music.svg" alt="">
+        </div>
+        <div>
+          <span>Annual Plan</span>
+          <span>$59.99/year</span>
+        </div>
+        <div>
+          <a href="#">Change</a>
+        </div>
+      </section>
+      <section>
+        <button>Proceed to Payment</button>
+        <button>Cancel Order</button>
+      </section>
+    </main>
+  </article>
 </body>
 </html>
