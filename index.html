@@ -6,17 +6,19 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
   <title>Order Sumary</title>
 </head>
 <body>
-  <article>
+  <article class="payment-card">
     <header>
-      <img id="hero" src="./images/illustration-hero.svg" alt="illustration-hero">
+      <img src="./images/illustration-hero.svg" alt="illustration-hero">
     </header>
     <main>
       <h1>Order Summary</h1>
-      <p id="message">You can now listen to millions of songs, audiobooks, and podcasts on any 
+      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
         device anywhere you like!</p>
       <section class="plan">
         <div>
@@ -30,11 +32,11 @@
           <a href="#">Change</a>
         </div>
       </section>
-      <section>
-        <button>Proceed to Payment</button>
-        <button>Cancel Order</button>
-      </section>
     </main>
+    <section>
+      <button>Proceed to Payment</button>
+      <button>Cancel Order</button>
+    </section>
   </article>
 </body>
 </html>
