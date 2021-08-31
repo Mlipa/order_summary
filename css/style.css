@@ -26,6 +26,7 @@ body{
     border-radius: 20px;
     margin-top: 64px;
     background-color: white;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .payment-card header img{
@@ -42,7 +43,7 @@ main h1{
 }
 
 main p{
-    margin: 0 24px 24px 24px;
+    margin: 0 32px 24px 32px;
     color: var(--Desaturated-blue);
     font-weight: 500;
     line-height: 24px;
@@ -56,6 +57,18 @@ main p{
     padding: 12px;
     border-radius: 12px;
     background-color: var(--Very-pale-blue);
+}
+
+.span1{
+    font-weight: 700;
+}
+
+.span2{
+    color: var(--Desaturated-blue);
+}
+
+a{
+    font-weight: 900;
 }
 
 .fooder{
